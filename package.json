@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/misolori/octicons-font/issues"
   },
-  "homepage": "https://github.com/misolori/octicons-font#readme"
+  "homepage": "https://github.com/misolori/octicons-font#readme",
+  "devDependencies": {
+    "icon-font-generator": "^2.1.8",
+    "octicons": "^8.2.0"
+  }
 }
