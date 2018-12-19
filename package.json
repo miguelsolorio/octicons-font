@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rm -rf dist && mkdir dist && icon-font-generator node_modules/octicons/build/svg/*.svg -o dist -n octicons -p octicon --html false --csstp template/styles.hbs"
   },
   "repository": {
     "type": "git",
