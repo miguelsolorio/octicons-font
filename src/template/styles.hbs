@@ -15,7 +15,10 @@
     -ms-user-select: none;
     user-select: none;
 }
+
 .mega-octicon { font-size: 32px; }
+
+
 
 {{# each codepoints }}
 .{{ ../classPrefix }}{{ @key }}:before { content: "\\{{ this }}" }
