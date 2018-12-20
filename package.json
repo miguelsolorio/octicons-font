@@ -7,7 +7,7 @@
     "clean": "rm -rf dist && mkdir dist && rm -rf _temp",
     "copy": "cp -R node_modules/octicons/build/svg/ _temp",
     "add": "cp -R src/icons/*.svg _temp",
-    "build": "npm run clean && npm run copy && npm run add && icon-font-generator _temp/*.svg -o dist -n octicons -p octicon --csstp src/template/styles.hbs --height 1000 --center --codepoints src/template/mapping.json --codepoint 62094 --descent 180 --json false"
+    "build": "npm run clean && npm run copy && npm run add && icon-font-generator _temp/*.svg -o dist -n octicons -p octicon --csstp src/template/styles.hbs --height 1000 --center --codepoints src/template/mapping.json --codepoint 62094 --descent 180 --json false --html false"
   },
   "repository": {
     "type": "git",
